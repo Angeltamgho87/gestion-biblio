@@ -1,0 +1,58 @@
+/* Style général pour l'application */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #1e1e2f;
+    -fx-text-fill: #ffffff;
+}
+
+/* TabPane et Tabs */
+.tab-pane {
+    -fx-tab-min-width: 150px; /* Largeur minimum pour chaque onglet */
+    -fx-tab-max-width: 150px; /* Largeur maximum pour chaque onglet */
+}
+
+.tab-pane .tab {
+    -fx-background-color: #2a2a3d;
+    -fx-text-fill: #ffffff; /* Texte blanc pour les onglets */
+    -fx-padding: 10px;
+    -fx-font-size: 16px; /* Texte plus grand pour les onglets */
+}
+
+/* Couleur de l'onglet actif */
+.tab-pane .tab:selected {
+    -fx-background-color: #3d3d5c;
+    -fx-text-fill: #ffffff;
+}
+
+/* Centrage et taille du contenu dans les onglets */
+.vbox {
+    -fx-alignment: center; /* Centre le contenu dans la VBox */
+    -fx-spacing: 15px; /* Espacement entre les éléments */
+}
+
+.button {
+    -fx-background-color: #3d3d5c;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 15px 20px;
+    -fx-font-size: 14px; /* Taille plus grande pour les boutons */
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #5c5c7a;
+}
+
+.text-field {
+    -fx-background-color: #2a2a3d;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px; /* Taille plus grande pour le texte dans le champ */
+    -fx-prompt-text-fill: #d1d1e0; /* Couleur du texte d'invite */
+    -fx-alignment: center; /* Centrer le texte dans le champ */
+}
+
+.list-view {
+    -fx-background-color: #2a2a3d;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px; /* Taille plus grande pour les éléments de la liste */
+}
